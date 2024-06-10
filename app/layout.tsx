@@ -21,12 +21,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
           <link rel="stylesheet" href="https://use.typekit.net/vsh8rwa.css"/>
-        </head>
-      <body className={open_Sans.className}>
-      {/* <div className='bg-[#fff] w-full pt-[40px]'>
-          <Header/>
+        </head> */}
+      <body>
+  
+        
+        {children}
+
+        
+        </body>
+    </html>
+  );
+}
+
+
+
+
+     {/* <Header/>
       <div className='flex items-center justify-center mx-auto gap-x-10 shadow-lg'>
             <div className=''>
                 <Image src={logo} className='w-[150px] h-auto ' width={500} alt=""  />
@@ -58,15 +70,4 @@ export default function RootLayout({
                     </Link>
                 </div>
             </div>
-      </div>
-    </div > */}
-        
-        {children}
-
-        <div>
-   
-      </div>
-        </body>
-    </html>
-  );
-}
+      </div> */}
