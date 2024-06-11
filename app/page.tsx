@@ -13,15 +13,15 @@ export default function Home() {
       <p className='text-[#fff] bg-[#c12126] font-normal text-[22px] py-3 font-Compaign text-center '>Dont miss out! Follow us on social media for exclusive daily deals and updates!</p> 
       <Homes/>
 
-      <div className="w-full text-[#fff] flex  text-[35px] font-semibold ">
+      <div className="w-full text-[#fff] block mt-[100px] md:mt-0 md:flex  text-[35px] font-semibold ">
         
 
         
         <div className=" ">
-        <div className="absolute p-[100px]">
+        <div className="absolute p-[60px] md:p-[100px]">
         <p>Herbs & Spice</p>
         <p className="mt-[-20px]">Blends</p>
-        <div className='bg-[#e4e4e4] text-black rounded-[30px] text-center mt-5 w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
+        <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
         </div>
@@ -29,10 +29,10 @@ export default function Home() {
         </div>
 
         <div className=" ">
-        <div className="absolute p-[100px]">
+        <div className="absolute p-[60px] md:p-[100px]">
         <p>Curry</p>
         <p className="mt-[-20px]">Blends</p>
-        <div className='bg-[#e4e4e4] text-black rounded-[30px] text-center mt-5 w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
+        <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
         </div>
@@ -40,10 +40,10 @@ export default function Home() {
         </div>
 
         <div className=" ">
-        <div className="absolute p-[100px]">
+        <div className="absolute p-[60px] md:p-[100px]">
         <p>Single</p>
         <p className="mt-[-20px]">Spices</p>
-        <div className='bg-[#e4e4e4] text-black rounded-[30px] text-center mt-5 w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
+        <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
         </div>
