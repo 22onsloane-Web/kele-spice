@@ -3,6 +3,7 @@ import Homes from "./components/Home";
 import cat1 from './image/cat_01.webp'
 import cat2 from './image/cat_02.webp'
 import cat3 from './image/cat_03.webp'
+import Recipe from "./components/Recipe";
 export default function Home() {
   return (
   
@@ -52,7 +53,9 @@ export default function Home() {
 
         </div>
 
-
+        <div>
+         <Recipe/>
+        </div>
       </div>
       
     
