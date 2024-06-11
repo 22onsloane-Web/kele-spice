@@ -4,7 +4,9 @@ import thejars from '../image/thejars.png'
 import jar from '../image/jars.png'
 import smalljar from '../image/smalljar.png'
 import theflavour from '../image/theflavours.png'
-import  spices from '../image/spicess.png'
+import spices from '../image/spicess.png'
+import slide from '../image/slide.png'
+import slider from '../image/slide2.png'
 export default function Recipe() {
   return (
     <div className='bg-[#f7f7ee] h-[1100px]'>
@@ -14,7 +16,7 @@ export default function Recipe() {
             </div>
             
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
-                <Image src={spices} className='w-full h-auto' alt=''/>
+                <Image src={slide} className='w-full h-auto' alt=''/>
             </div>
 
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
@@ -25,11 +27,11 @@ export default function Recipe() {
 
       <div className='block md:flex px-5 items-center justify-center mx-auto pt-1 md:px-[50px] lg:px-[300px] gap-x-1'>
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
-                <Image src={theflavour} className='w-full h-auto' alt=''/>
+                <Image src={slider} className='w-full h-auto' alt=''/>
             </div>
             
-            <div className='text-center justify-center items-center my-auto bg-[#000] w-full h-auto'>
-                <Image src={thejars} className='w-full h-auto opacity-0' alt=''/>
+            <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
+                <Image src={theflavour} className='w-full h-auto ' alt=''/>
             </div>
 
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
