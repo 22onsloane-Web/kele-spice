@@ -43,12 +43,12 @@ export default function Home() {
       >
         <div className="fixed inset-0 z-10" />
 
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto shadow-[2px_3px_5px_black] bg-[#c12126] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto shadow-[2px_3px_5px_black] bg-[#f5f5f5] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5 text-white">
-            <Image
+            <img
               className="w-20 h-auto"
-              src={logo}
+              src={urlpic}
               alt=""
             />
             </a>
@@ -69,9 +69,9 @@ export default function Home() {
                 <a
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 hover:text-[#45aad7]">
-                   <HomeIcon className="h-7 w-7 text-[#fff] mt-0 hover:text-white" aria-hidden="true"/>
-                   <p className="text-[#fff] font-medium text-[15px]">Home</p>
+                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]">
+                   <HomeIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
+                   <p className=" font-medium text-[15px]">Home</p>
                 </div>
                
                 </a>
@@ -79,26 +79,26 @@ export default function Home() {
                 <a
                  href="#offres"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 hover:text-[#45aad7]"  >
-                   <RectangleGroupIcon className="h-7 w-7 text-[#fff] mt-0 hover:text-white" aria-hidden="true"/>
-                   <p className="text-[#fff] font-medium text-[15px]">Product</p>
+                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                   <RectangleGroupIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
+                   <p className=" font-medium text-[15px]">Product</p>
                 </div>
                
                 </a>
                 <a
                  href="#offres"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 hover:text-[#45aad7]"  >
-                   <WalletIcon className="h-7 w-7 text-[#fff] mt-0 hover:text-white" aria-hidden="true"/>
-                   <p className="text-[#fff] font-medium text-[15px]">About Us</p>
+                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                   <WalletIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
+                   <p className=" font-medium text-[15px]">About Us</p>
                 </div>
                 </a>
                 <a
                  href="#about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div  className="flex gap-x-6 hover:text-[#45aad7]"  >
-                   <PhoneIcon className="h-7 w-7 text-[#fff] mt-0 hover:text-white" aria-hidden="true"/>
-                   <p className="text-[#fff] font-medium text-[15px]">Contact Us</p>
+                ><div  className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                   <PhoneIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
+                   <p className=" font-medium text-[15px]">Contact Us</p>
                 </div>
                
                 </a>
