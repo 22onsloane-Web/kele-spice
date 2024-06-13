@@ -4,17 +4,17 @@ import headerpic from "../image/banner_img.webp"
 import Image from 'next/image'
 import { Bars3Icon } from '@heroicons/react/16/solid'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 export default function Home() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
   return (
     <div className='bg-[#fec800] w-full h-[700px]'>
-      <div className='flex justify-center items-center mx-auto pt-4 text-[20px] font-normal gap-x-5'>
-        <div className='bg-[#c12126] text-center rounded-[80px] justify-center items-center'>
-            
-        </div>
-        <div className="flex lg:hidden">
+      <p className='text-[#fff] bg-[#c12126] font-normal text-[12px] md:text-[22px] py-3 font-Compaign text-center '>Dont miss out! Follow us on social media for exclusive daily deals and updates!</p>   
+        
+      <div className='flex justify-center items-center mx-auto pt-0 text-[20px] font-normal gap-x-5'>
+       <div className="flex lg:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
@@ -24,10 +24,14 @@ export default function Home() {
             <Bars3Icon className="h-6 w-11 " aria-hidden="true" />
           </button>
         </div>
-       <div className='justify-center items-center mx-auto pt-7 font-semibold hidden  lg:flex gap-x-[100px]'>
-       <p>Products</p>
-        <p>Recipes</p>
-        <p>Our Story</p>
+       <div className='justify-center items-center mx-auto py-4 font-semibold hidden  lg:flex gap-x-[100px]'>
+       <Link href='/'>
+       <p>Home</p>
+       </Link>
+        <p>Product</p>
+        <Link href='/about'>
+        <p>About us</p>
+        </Link>
         <p>Contact Us</p>
        </div>
       </div>

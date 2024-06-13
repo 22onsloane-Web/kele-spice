@@ -10,6 +10,7 @@ import { ChatBubbleBottomCenterTextIcon, HomeIcon, PhoneIcon, RectangleGroupIcon
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import Footer from "./components/Footer";
 import { motion } from 'framer-motion'
+import Product from "./components/Product";
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
@@ -17,9 +18,8 @@ export default function Home() {
   
       
 
-      <div >
-      <p className='text-[#fff] bg-[#c12126] font-normal text-[12px] md:text-[22px] py-3 font-Compaign text-center '>Dont miss out! Follow us on social media for exclusive daily deals and updates!</p> 
-      <Homes/>
+      <div className="bg-[#f7f7ee]">
+     <Homes/>
 
       <div className="w-full text-[#fff] hidden mt-[100px] md:mt-0 md:flex  text-[35px] font-semibold ">
         
@@ -27,7 +27,7 @@ export default function Home() {
         
         <div className=" ">
         <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute p-[60px] md:p-[100px]">
-        <p>Herbs & Spice</p>
+        <p>Spice</p>
         <p className="mt-[-20px]">Blends</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
@@ -38,8 +38,8 @@ export default function Home() {
 
         <div className=" ">
         <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute p-[60px] md:p-[100px]">
-        <p>Curry</p>
-        <p className="mt-[-20px]">Blends</p>
+        <p>Herbs </p>
+        <p className="mt-[-20px]">& Aromatics</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
@@ -49,8 +49,8 @@ export default function Home() {
 
         <div className=" ">
         <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute p-[60px] md:p-[100px]">
-        <p>Single</p>
-        <p className="mt-[-20px]">Spices</p>
+        <p>Specialty</p>
+        <p className="mt-[-20px]">Mixes</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
@@ -97,17 +97,21 @@ export default function Home() {
         </div>
           <Image src={cat3} className=" w-full h-auto" alt=""/>
           </motion.div>
-
-
         </div>
+
+        <div className="pt-[150px]">
+          <p className="text-center text-[30px] pb-[50px] font-bold">Products</p>
+         <div className="mt-[0px]">
+         <Product/>
+         </div>
+        </div>
+
 
         <div>
          <Recipe/>
         </div>
 
-        <div className="mt-[100px]">
-          <Footer/>
-        </div>
+      
       </div>
       
     

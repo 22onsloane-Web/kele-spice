@@ -4,6 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 
 import Link from "next/link";
+import Footer from "./components/Footer";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,6 +30,9 @@ export default function RootLayout({
         
         {children}
 
+        <div className="pt-[0px] bg-[#f7f7ee] z-10">
+          <Footer/>
+        </div>
         
         </body>
     </html>

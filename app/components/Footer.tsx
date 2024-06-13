@@ -8,8 +8,8 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <div className='w-full bg-[#000000] md:pt-0 pt-[50px] px-5 md:px-0'>
-      <div className='block lg:flex gap-x-10 justify-center items-center mx-auto py-10 space-y-5'>
+    <div className='w-full bg-[#000000] md:pt-0 pt-[50px] px-5 md:px-0 z-30'>
+      <div className='block lg:flex gap-x-10 justify-center items-center  mx-auto px-1 md:px-10 py-10 lg:space-y-0 space-y-5'>
             <div className='bg-[#d3d3d3] w-full lg:w-[300px] h-[250px]'>
                 <div className='py-5 justify-center items-center mx-auto flex'>
                   <FaLocationDot className='w-[70px] h-[70px] text-[#c12126]'/>
@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
       </div>
 
-      <div className='text-[#e4e4e4] block lg:flex gap-x-[200px] items-center justify-center mx-auto pb-[100px]'>
+      <div className='text-[#e4e4e4] block md:px-10 lg:px-0 lg:flex gap-x-[200px] items-center justify-center mx-auto pb-[100px]'>
        <div className='pb-[50px] lg:pb-0'>
        <p className='font-bold text-[30px] px-5 lg:px-0'>Contact Info</p>
         <p className='w-full lg:w-[400px] px-5 lg:px-0 text-[16px] mt-5'>For inquiries, feedback, or collaborations, don't hesitate to reach out to Rovinia. Our office is situated at 94 Brodway St, New Road, JHB 2001. Whether you have questions about our services, want to discuss partnership opportunities, or simply wish to share your thoughts, we're here to listen. You can contact us directly by phone at [Your Phone Number], where our team will be delighted to assist you, or feel free to drop us an email at [Your Email Address].</p>
