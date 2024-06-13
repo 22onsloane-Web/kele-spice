@@ -100,7 +100,7 @@ export default function Home() {
         </div>
 
         <div className="pt-[150px]">
-          <p className="text-center text-[30px] pb-[50px] font-bold">Products</p>
+          <p className="text-center text-[30px] pb-[50px] text-black font-bold">Products</p>
          <div className="mt-[0px]">
          <Product/>
          </div>

@@ -46,7 +46,7 @@ export default function Page() {
                 </div>
                 <Image src={thejars} alt='' className='w-full px-[50px] absolute z-0  h-auto ml-[-70px] mt-[-330px]'/>
               </div>
-              <div className='mt-[20%] block md:hidden text-center text-[55px] font-medium'>
+              <div className='mt-[20%] block md:hidden text-center text-black text-[55px] font-medium'>
                 <p>Who we are.</p>
               </div>
               <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='text-[30px] w-full px-10 md:text-[90px] hidden md:block font-bold mt-[30px]'>
