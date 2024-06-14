@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 import React, { useState } from 'react'
 import headerpic from "../image/banner_img.webp"
@@ -119,13 +120,13 @@ export default function Home() {
        </Link>
         <p>Product</p>
         <Link href='/about'>
-        <p>About us</p>
+        <p>About Us</p>
         </Link>
         <p>Contact Us</p>
        </div>
       </div>
 
-      <div className='block md:flex justify-center items-center mx-auto mt-5  md:mt-[100px] gap-x-10' >
+      <div className='block md:flex justify-center items-center mx-auto mt-0  md:mt-[100px] gap-x-10' >
 
       <motion.div initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}}viewport={{once:true}}className='px-5 md:px-0 mt-0 md:mt-0 md:hidden block space-y-1 lg:space-y-0 ml-[-10px]'>
             <Image src={headerpic} className="w-[750px] h-auto" alt=''/>
@@ -166,6 +167,7 @@ export default function Home() {
         <motion.div  initial={{x: 200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='px-5 md:px-0 mt-6 md:mt-0 md:block hidden'>
             <Image src={headerpic} className="w-[750px] h-auto" alt=''/>
         </motion.div>
+        
       </div>
 
       

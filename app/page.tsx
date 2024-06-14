@@ -21,12 +21,12 @@ export default function Home() {
       <div className="bg-[#f7f7ee]">
      <Homes/>
 
-      <div className="w-full text-[#fff] hidden mt-[100px] md:mt-0 md:flex  text-[35px] font-semibold ">
+      <div className="w-full text-[#fff] hidden mt-[0px] md:mt-0 md:flex  text-[35px] font-semibold ">
         
 
         
         <div className=" ">
-        <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute p-[60px] md:p-[100px]">
+        <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute pb-[60px] px-[60px] p-0 md:p-[100px]">
         <p>Spice</p>
         <p className="mt-[-20px]">Blends</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
