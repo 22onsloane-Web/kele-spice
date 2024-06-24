@@ -25,7 +25,7 @@ export default function Page() {
               <Bars3Icon className="h-6 w-11 " aria-hidden="true" />
             </button>
           </div>
-         <div className='justify-center items-center mx-auto py-4 font-semibold hidden  lg:flex gap-x-[100px]'>
+         <div className='justify-center items-center mx-auto py-4 font-semibold hidden text-black lg:flex gap-x-[100px]'>
          <Link href='/'>
          <p>Home</p>
          </Link>
@@ -50,9 +50,9 @@ export default function Page() {
                 <p>Who we are.</p>
               </div>
               <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='text-[30px] w-full px-10 md:text-[90px] hidden md:block font-bold mt-[30px]'>
-                <p className='border-b-[2px]'>Who</p>
-                <p className='border-b-[2px] mt-0 md:mt-[-10px] w-fit'>we</p>
-                <p className='border-b-[2px] w-fit'>are.</p>
+                <p className='border-b-[2px] text-black'>Who</p>
+                <p className='border-b-[2px] text-black mt-0 md:mt-[-10px] w-fit'>we</p>
+                <p className='border-b-[2px] text-black w-fit'>are.</p>
               </motion.div>
               <motion.div  initial={{x: 200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className=' md:block hidden'>
                 <div className='bg-[#ff8801] w-[350px] h-[350px]'>

@@ -106,32 +106,30 @@ export default function Home() {
       
               </div>
 
-              
             
             </div>
           </div>
         </Dialog.Panel>
       </Dialog>
 
-
        <div className='justify-center items-center mx-auto py-4 font-semibold hidden  lg:flex gap-x-[100px]'>
        <Link href='/'>
        <p>Home</p>
        </Link>
-        <p>Product</p>
+        <Link href="#product"  className='hover:cursor-pointer'>
+        <p>Product</p></Link>
         <Link href='/about'>
         <p>About Us</p>
         </Link>
-        <p>Contact Us</p>
+        <Link href="#contact"  className='hover:cursor-pointer'>
+        <p>Contact Us</p></Link>
        </div>
       </div>
 
       <div className='block md:flex justify-center items-center mx-auto mt-0  md:mt-[100px] gap-x-10' >
-
       <motion.div initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}}viewport={{once:true}}className='px-5 md:px-0 mt-0 md:mt-0 md:hidden block space-y-1 lg:space-y-0 ml-[-10px]'>
             <Image src={headerpic} className="w-[750px] h-auto" alt=''/>
         </motion.div>
-
 
         <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='mt-0 md:mt-[-30px] text-black md:block hidden'>
         <p className='font-bold font-Compaign text-[50px]  md:text-[80px] text-center md:text-start'>The Finest </p>
@@ -148,7 +146,6 @@ export default function Home() {
 
 
         </motion.div>
-
 
         <motion.div  initial={{x: 200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='mt-0 md:mt-[-30px] text-black block md:hidden'>
         <p className='font-bold font-Compaign text-[50px]  md:text-[80px] text-center md:text-start'>The Finest </p>

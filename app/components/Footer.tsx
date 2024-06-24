@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className='w-full bg-[#000000] md:pt-0 pt-[50px] px-5 md:px-0 z-30'>
       <div className='block lg:flex gap-x-10 justify-center items-center  mx-auto px-1 md:px-10 py-10 lg:space-y-0 space-y-5'>
-            <div className='bg-[#d3d3d3] w-full lg:w-[300px] h-[250px]'>
+            <div className='bg-[#fff] text-black w-full lg:w-[300px] h-[250px]'>
                 <div className='py-5 justify-center items-center mx-auto flex'>
                   <FaLocationDot className='w-[70px] h-[70px] text-[#c12126]'/>
                 </div>
@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='bg-[#d3d3d3] w-full lg:w-[300px] h-[250px]'>
+            <div className='bg-[#fff] text-black w-full lg:w-[300px] h-[250px]'>
                 <div className='py-5 justify-center items-center mx-auto flex'>
                   <FaPhone className='w-[70px] h-[70px] text-[#c12126]'/>
                 </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='bg-[#d3d3d3] w-full lg:w-[300px] h-[250px]'>
+            <div className='bg-[#fff] text-black w-full lg:w-[300px] h-[250px]'>
                 <div className='py-5 justify-center items-center mx-auto flex'>
                   <FaFax className='w-[70px] h-[70px] text-[#c12126]'/>
                 </div>
@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='bg-[#d3d3d3] w-full lg:w-[300px] h-[250px]'>
+            <div className='bg-[#fff] text-black w-full lg:w-[300px] h-[250px]'>
                 <div className='py-5 justify-center items-center mx-auto flex'>
                   <MdEmail  className='w-[70px] h-[70px] text-[#c12126]'/>
                 </div>

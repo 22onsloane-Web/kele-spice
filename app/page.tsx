@@ -18,7 +18,7 @@ export default function Home() {
   
       
 
-      <div className="bg-[#f7f7ee]">
+      <div className="bg-[#f7f7ee] scroll-smooth" style={{scrollBehavior:'smooth'}} >
      <Homes/>
 
       <div className="w-full text-[#fff] hidden mt-[0px] md:mt-0 md:flex  text-[35px] font-semibold ">
@@ -32,8 +32,11 @@ export default function Home() {
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
+        <div className="mt-5 bg-[#bc3328] bg-opacity-90 shadow-xl rounded-[10px]">
+        <p className="w-[400px] font-bold text-[17px] p-3">Explore our unique spice blends, each designed with the finest ingredients to bring out the best in your dishes. Made with meticulous care, these blends add depth and richness to your culinary creations. </p>
+        </div>
         </motion.div>
-          <Image src={cat1} className=" w-full h-auto" alt=""/>
+          <Image src={cat1} className="w-full h-auto" alt=""/>
         </div>
 
         <div className=" ">
@@ -42,6 +45,9 @@ export default function Home() {
         <p className="mt-[-20px]">& Aromatics</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
+        </div>
+        <div className="mt-5 bg-[#ff8801] bg-opacity-90 shadow-xl rounded-[10px]">
+        <p className="w-[400px] font-bold text-[17px] p-3">Explore our unique spice blends, each designed with the finest ingredients to bring out the best in your dishes. Made with meticulous care, these blends add depth and richness to your culinary creations. </p>
         </div>
         </motion.div>
           <Image src={cat2} className=" w-full h-auto" alt=""/>
@@ -53,6 +59,9 @@ export default function Home() {
         <p className="mt-[-20px]">Mixes</p>
         <div className='bg-[#e4e4e4] text-black rounded-[10px] md:rounded-[30px] text-center mt-2 w-[90px] md:w-[150px] hover:cursor-pointer hover:bg-black hover:text-[#fff] '>
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
+        </div>
+        <div className="mt-5 bg-[#bc3328] bg-opacity-90 shadow-xl rounded-[10px]">
+        <p className="w-[400px] font-bold text-[17px] p-3">Explore our unique spice blends, each designed with the finest ingredients to bring out the best in your dishes. Made with meticulous care, these blends add depth and richness to your culinary creations. </p>
         </div>
         </motion.div>
           <Image src={cat3} className=" w-full h-auto" alt=""/>
@@ -99,9 +108,9 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="pt-[150px]">
+        <div className="pt-[150px]"id='product'>
           <p className="text-center text-[30px] pb-[50px] text-black font-bold">Products</p>
-         <div className="mt-[0px]">
+         <div className="mt-[0px]" >
          <Product/>
          </div>
         </div>

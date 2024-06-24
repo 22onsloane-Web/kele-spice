@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       {/* <head>
           <link rel="stylesheet" href="https://use.typekit.net/vsh8rwa.css"/>
         </head> */}
@@ -30,7 +30,7 @@ export default function RootLayout({
         
         {children}
 
-        <div className="pt-[0px] bg-[#f7f7ee] z-10">
+        <div className="pt-[0px] bg-[#f7f7ee] z-10" id="contact">
           <Footer/>
         </div>
         
@@ -38,8 +38,6 @@ export default function RootLayout({
     </html>
   );
 }
-
-
 
 
      {/* <Header/>
