@@ -47,7 +47,7 @@ export default function Home() {
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
         <div className="mt-5 bg-[#ff8801] bg-opacity-90 shadow-xl rounded-[10px]">
-        <p className="w-[400px] font-bold text-[17px] p-3">Explore our unique spice blends, each designed with the finest ingredients to bring out the best in your dishes. Made with meticulous care, these blends add depth and richness to your culinary creations. </p>
+        <p className="w-[400px] font-bold text-[17px] p-3">Our selection of herbs and aromatics is carefully selected to enhance the natural flavors of your meals. These premium ingredients add an aromatic touch that elevates your cooking.  </p>
         </div>
         </motion.div>
           <Image src={cat2} className=" w-full h-auto" alt=""/>
@@ -61,7 +61,7 @@ export default function Home() {
             <p className='px-0 py-2 font-bold text-[15px] '>Shop now</p>
         </div>
         <div className="mt-5 bg-[#bc3328] bg-opacity-90 shadow-xl rounded-[10px]">
-        <p className="w-[400px] font-bold text-[17px] p-3">Explore our unique spice blends, each designed with the finest ingredients to bring out the best in your dishes. Made with meticulous care, these blends add depth and richness to your culinary creations. </p>
+        <p className="w-[400px] font-bold text-[17px] p-3">Discover our specialty mixes, designed to simplify your cooking while delivering complex and delicious flavors. Perfect for everyday meals and special occasions, these mixes bring a touch of magic to your kitchen. </p>
         </div>
         </motion.div>
           <Image src={cat3} className=" w-full h-auto" alt=""/>
