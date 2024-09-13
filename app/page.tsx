@@ -9,23 +9,30 @@ import { useState } from "react";
 import { ChatBubbleBottomCenterTextIcon, HomeIcon, PhoneIcon, RectangleGroupIcon, WalletIcon, XMarkIcon } from "@heroicons/react/16/solid";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import Footer from "./components/Footer";
-import { motion } from 'framer-motion'
+import { motion, useAnimation } from 'framer-motion'
 import Product from "./components/Product";
+import Section1 from "./components/Section1";
+import Section2 from "./components/Section2";
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [loginOpen, setLoginOpen] = useState(false);
+  const controls = useAnimation();
   return (
   
       
 
-      <div className="bg-[#f7f7ee] scroll-smooth" style={{scrollBehavior:'smooth'}} >
+      <div className="bg-[#fff] scroll-smooth mt-[-3px]"  >
      <Homes/>
 
-      <div className="w-full text-[#fff] hidden mt-[0px] md:mt-0 md:flex  text-[35px] font-semibold ">
+     <motion.div initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} animate={controls} viewport={{once:true}}>
+      <Section1/>
+     </motion.div>
+     
+      <div className="w-full text-[#fff] bg-[#f6f8ed] hidden mt-[0px] md:mt-[0px] md:flex  text-[35px] font-semibold ">
         
 
         
-        <div className=" ">
+        <div className="bg-[#f6f8ed]">
         <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="absolute pb-[60px] px-[60px] p-0 md:p-[100px]">
         <p>Spice</p>
         <p className="mt-[-20px]">Blends</p>
@@ -70,6 +77,10 @@ export default function Home() {
 
         </div>
 
+        <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}}>
+      <Section2/>
+     </motion.div>
+
         <div className="w-full text-[#fff] block mt-[100px] md:mt-0 md:hidden  text-[35px] font-semibold ">
         
 
@@ -108,17 +119,17 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <div className="pt-[150px]"id='product'>
+        <div className="pt-[150px]" id='product'>
           <p className="text-center text-[30px] pb-[50px] text-black font-bold">Products</p>
-         <div className="mt-[0px]" >
+          <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className="mt-[0px]" >
          <Product/>
-         </div>
+         </motion.div>
         </div>
 
 
-        <div>
+       <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}}>
          <Recipe/>
-        </div>
+        </motion.div>
 
       
       </div>

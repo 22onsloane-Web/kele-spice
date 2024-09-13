@@ -66,10 +66,10 @@ export default function Product() {
     };
   return (
     <div>
-        <div className='block md:flex justify-center items-center mx-auto gap-x-0 lg:gap-x-8'>
+        <div className='block md:flex justify-center items-center mx-auto gap-x-0 lg:gap-x-8 text-black'>
             <div className='md:px-[20px] lg:px-0 px-5 '>
                 <Image src={s1} className='w-full lg:w-[320px] h-auto  rounded-[10px]' alt=''/>
-                <div className='text-black'>
+                <div className=''>
                     <p className='font-medium text-[18px]'>Garlic & Chillie pink Salt</p>
                     <p className='font-medium text-[15px] text-[#8b8b8b]'>Kele Spices</p>
                 </div>

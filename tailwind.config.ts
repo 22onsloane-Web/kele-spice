@@ -17,7 +17,27 @@ const config: Config = {
         'Compaign': ['compaign', 'serif'],
         'Open_Sans':['open_sans']
         
-      }
+      },
+      keyframes: {
+        spin: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        'spin-slow': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+        'spin-fast': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        spin: 'spin 1s linear infinite',
+        'spin-veryslow': 'spin-slow 10s linear infinite',
+        'spin-slow': 'spin-slow 2s linear infinite',
+        'spin-fast': 'spin-fast 0.5s linear infinite',
+      },
     },
   },
   plugins: [],

@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import Link from "next/link";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,11 +26,16 @@ export default function RootLayout({
       {/* <head>
           <link rel="stylesheet" href="https://use.typekit.net/vsh8rwa.css"/>
         </head> */}
+      
       <body>
-  
+     <div>
+      <Header/>
+     </div>
         
-        {children}
+     <div>
+     {children}
 
+     </div>
         <div className="pt-[0px] bg-[#f7f7ee] z-10" id="contact">
           <Footer/>
         </div>
