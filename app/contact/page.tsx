@@ -165,7 +165,7 @@ export default function contact() {
 
        <div>
         <iframe className='w-full h-[450px] mt-[100px]'
-                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14338.481434915571!2d28.002083104391897!3d-26.045974934787058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-26.047097899999997!2d28.0068096!4m5!1s0x1e9574086dca7fd9%3A0x6d73df7886490b91!2s22onsloane!3m2!1d-26.042621!2d28.0168257!5e0!3m2!1sen!2sza!4v1720445930211!5m2!1sen!2sza" width="1100" height="400"  allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14338.481434915571!2d28.002083104391897!3d-26.045974934787058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-26.047097899999997!2d28.0068096!4m5!1s0x1e9574086dca7fd9%3A0x6d73df7886490b91!2s22onsloane!3m2!1d-26.042621!2d28.0168257!5e0!3m2!1sen!2sza!4v1720445930211!5m2!1sen!2sza" width="1100" height="400"></iframe>
        </div>
 
     </div>
