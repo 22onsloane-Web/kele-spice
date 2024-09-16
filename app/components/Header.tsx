@@ -76,12 +76,12 @@ export default function Header() {
       >
         <div className="fixed inset-0 z-10" />
 
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto shadow-[2px_3px_5px_black] bg-[#f5f5f5] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto shadow-[2px_3px_5px_black] bg-[#c12126] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5 text-white">
             <img
-              className="w-20 h-auto"
-              src={urlpic}
+              className="w-[40vw] h-auto"
+              src={logo.src}
               alt=""
             />
             </a>
@@ -91,7 +91,7 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6 text-white"  aria-hidden="true" />
+              <XMarkIcon className="w-[8vw] text-white"  aria-hidden="true" />
             </button>
           </div>
 
@@ -101,7 +101,7 @@ export default function Header() {
                 <a
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]">
+                ><div className="flex gap-x-6 text-[#fff]  hover:text-[#c12126]">
                    <HomeIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
                    <p className=" font-medium text-[15px]">Home</p>
                 </div>
@@ -110,7 +110,7 @@ export default function Header() {
                 <a
                  href="#offres"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                ><div className="flex gap-x-6 text-[#fff]  hover:text-[#c12126]"  >
                    <RectangleGroupIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
                    <p className=" font-medium text-[15px]">Product</p>
                 </div>
@@ -119,7 +119,7 @@ export default function Header() {
                 <a
                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                ><div className="flex gap-x-6 text-[#fff]  hover:text-[#c12126]"  >
                    <WalletIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
                    <p className=" font-medium text-[15px]">About Us</p>
                 </div>
@@ -127,7 +127,7 @@ export default function Header() {
                 <a
                  href="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
-                ><div  className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
+                ><div  className="flex gap-x-6 text-[#fff]  hover:text-[#c12126]"  >
                    <PhoneIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
                    <p className=" font-medium text-[15px]">Contact Us</p>
                 </div>

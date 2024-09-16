@@ -24,12 +24,12 @@ export default function Home() {
   const [loginOpen, setLoginOpen] = useState(false);
   const urlpic = "https://thespiceshop.co.uk/cdn/shop/files/logo_new.png?v=1674147259&width=352";
   return (
-    <div className='bg-[#bd1f17] w-full  lg:h-fit pb-[6vw] pt-[2vw] lg:pt-[60px] ' >
+    <div className='bg-[#bd1f17] w-full h-screen  lg:h-fit pb-0 lg:pb-[6vw] pt-[2vw] lg:pt-[60px] '  >
       {/* <p className='text-[#fff] bg-[#c12126] font-normal text-[12px] md:text-[22px] py-3 font-Compaign text-center '>Dont miss out! Follow us on social media for exclusive daily deals and updates!</p>   
          */}
  
 
-      <div className='block md:flex justify-between mx-auto mt-0  py-[0vw] lg:py-[150px] px-[2vw] lg:px-[13vw] h-auto' >
+      <div className='block md:flex justify-between mx-auto mt-0  py-[0vw] lg:py-[5vw] px-[2vw] lg:px-[13vw] h-auto' >
 
       <motion.div initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} animate={controls} viewport={{once:true}}>
             <div className='text-[#ecba23] flex gap-x-3 text-[20px]'>
@@ -47,11 +47,11 @@ export default function Home() {
               <p className='w-[550px] font-medium mt-4 hidden lg:block'>Welcome to SpiceSavvy, your ultimate destination for flavorful spices! Elevate your culinary creations with our premium, aromatic blends. Satisfaction Guaranteed!</p>
             </div>
             
-            <div className='flex justify-center -ml-[2vw]'>
-            <Image src={headerpic} className="w-full h-auto mt-[0vh] block lg:hidden " alt=''/>
-            </div>
+            <motion.div initial={{scale: 0, opacity:0}} whileInView={{scale:1, opacity:1}} transition={{duration:1.2}} animate={controls} viewport={{once:true}} className='flex justify-center -ml-[2vw]'>
+            <Image src={headerpic} className="w-full h-auto mt-[0vh] block lg:hidden animate-spin-veryslow " alt=''/>
+            </motion.div>
 
-            <div className='px-[10vw] pb-[3vw]'>
+            <div className='px-[10vw] pb-0 lg:pb-[3vw]'>
             <div className='bg-[#ecba23] text-[20px] mt-8 hover:scale-110 transition duration-200 lg:w-fit text-white uppercase hover:cursor-pointer font-semibold rounded-[5px] flex justify-center text-center w-full'>
             <p className='px-6 py-2'>Discover</p>
           </div>
