@@ -116,11 +116,11 @@ export default function Product() {
             </div>
         </div>
 
-        <div className='flex w-full px-10 justify-between absolute mt-[-350px]'>
-            <div className='bg-[#000] bg-opacity-10 rounded-full text-black hover:text-white hover:bg-opacity-100 hover:cursor-pointer '>
+        <div className='flex w-full px-[5vw] md:px-10 justify-between absolute mt-[-350px]'>
+            <div className='bg-[#000] bg-opacity-10 rounded-full text-[#dddd] hover:text-white hover:bg-opacity-100 hover:cursor-pointer '>
             <RiArrowLeftSLine className='w-[50px] h-auto'/>
             </div>
-            <div className='bg-[#000] bg-opacity-10 rounded-full text-black hover:text-white hover:bg-opacity-100 hover:cursor-pointer '>
+            <div className='bg-[#000] bg-opacity-10 rounded-full text-[#dddd] hover:text-white hover:bg-opacity-100 hover:cursor-pointer '>
             <RiArrowRightSLine className='w-[50px] h-auto'/>
             </div>
         </div>

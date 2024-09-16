@@ -81,7 +81,7 @@ export default function Home() {
       <Section2/>
      </motion.div>
 
-        <div className="w-full text-[#fff] block mt-[100px] md:mt-0 md:hidden  text-[35px] font-semibold ">
+        <div className="w-full text-[#fff] block mt-[0] md:mt-0 md:hidden  text-[35px] font-semibold ">
         
 
         

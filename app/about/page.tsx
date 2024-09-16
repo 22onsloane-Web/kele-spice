@@ -3,14 +3,17 @@ import { Bars3Icon } from '@heroicons/react/16/solid'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import header from "../image/assortment-of-spices-2023-11-27-04-53-03-utc.jpg"
+import header2 from "../image/assortment-of-spices-2023-11-27-04-53-03-utc - Copy.jpg"
 import bgPic1 from "../image/aboutspic.jpg"
 import Image from 'next/image'
 import thejars from '../image/thejars.png'
 import { motion } from 'framer-motion'
 import bgPic from '../image/aboutpics.jpg'
+import bgPic2 from '../image/aboutpics - Copy.jpg'
 import {Antonio, Open_Sans} from 'next/font/google'
 import { GoHorizontalRule } from 'react-icons/go'
 import unsdgs from  "../image/unsdgs.jpg"
+import unsdgs2 from  "../image/unsdgs - Copy.jpg"
 import { FaQuoteLeft } from "react-icons/fa";
 
 const antonio = Antonio({ subsets: ["latin"] });
@@ -21,7 +24,8 @@ export default function Page() {
   return (
     <div className='bg-[#fff6ef]'>
        <div className=''>
-        <Image src={bgPic} className='w-full h-auto' alt=''/>
+        <Image src={bgPic} className='w-full h-[30vw] md:h-auto hidden lg:block' alt=''/>
+        <Image src={bgPic2} className='w-full h-auto md:h-auto block lg:hidden' alt=''/>
         <div className={antonio.className}>
         <div className='flex mx-auto items-center justify-center -mt-[280px] pb-[200px]'>
         <div className=''>
@@ -38,29 +42,55 @@ export default function Page() {
         </div>
        </div>
        
-       <div className='w-full flex mt-5 md:mt-0  pb-[200px] '>
-          <div className=' mx-auto px-[20px] md:px-[50px] py-[2%]  '>
-             <div className='block md:flex justify-between gap-x-[200px]'>
+       <div className='w-full flex mt-0 md:mt-0  pb-[200px] '>
+          <div className=' mx-auto  md:px-[50px] py-[2%] '>
+             <div className='lg:hidden block md:flex justify-between gap-x-0 md:gap-x-[200px]'>
+             <div className=' md:hidden block w-full px-0 h-[90vw]'>
+                <div className='bg-[#ff8801] w-full h-[90vw] absolute'>
+      
+                </div>
+                <Image src={thejars} alt='' className='w-full pt-[9vw] pr-[9vw] absolute z-0 h-[90vw]  '/>
+              </div>
+              
+              <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='text-[30px] w-full  md:text-[90px]  md:block font-bold mt-[1vw]'>
+              <div className='mt-[20%] block md:hidden text-center text-black text-[55px] font-medium'>
+                <p>Who we are.</p>
+              </div>
+                <p className='border-b-[2px] w-fit text-black hidden lg:block'>Who we are.</p>
+                <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='mt-[10px] md:mt-[30px] pb-[20px]'>
+              <p className='w-full px-[5vw] md:px-8 lg:px-0  lg:w-[750px] text-[20px] md:text-[25px] text-[#575757] font-light '>At Kele Spice Hub, we are founded on the principle of loving life through the sharing of spices, herbs, and aromas that add wholesome taste to both your food and your life. Our home-made blends are meticulously prepared with love and detail in small batches from our kitchen in South Africa, ensuring each product reflects our passion and commitment to quality.</p>
+             </motion.div>
+              </motion.div>
+              <motion.div  initial={{x: 200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className=' md:block hidden'>
+                <div className='bg-[#ff8801] w-full lg:w-[450px] h-[450px]'>
+      
+                </div>
+                <Image src={thejars} alt='' className='w-[500px] absolute z-0  h-auto ml-0 lg:ml-[-100px] mt-[-400px]'/>
+              </motion.div>
+             </div>
+
+             <div className='hidden md:flex justify-between gap-x-0 md:gap-x-[200px]'>
              <div className=' md:hidden block w-full px-0'>
                 <div className='bg-[#ff8801] w-full pl-5 h-[350px]'>
       
                 </div>
                 <Image src={thejars} alt='' className='w-full px-[50px] absolute z-0  h-auto ml-[-70px] mt-[-330px]'/>
               </div>
+              
+              <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='text-[30px] w-full  md:text-[90px] hidden md:block font-bold mt-[30px]'>
               <div className='mt-[20%] block md:hidden text-center text-black text-[55px] font-medium'>
                 <p>Who we are.</p>
               </div>
-              <motion.div  initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='text-[30px] w-full  md:text-[90px] hidden md:block font-bold mt-[30px]'>
                 <p className='border-b-[2px] w-fit text-black'>Who we are.</p>
                 <motion.div  initial={{y: 200, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className='mt-[10px] md:mt-[30px] pb-[20px]'>
-              <p className='w-full px-0 md:px-8 lg:px-0 lg:w-[750px] text-[20px] md:text-[25px] text-[#575757] font-light'>At Kele Spice Hub, we are founded on the principle of loving life through the sharing of spices, herbs, and aromas that add wholesome taste to both your food and your life. Our home-made blends are meticulously prepared with love and detail in small batches from our kitchen in South Africa, ensuring each product reflects our passion and commitment to quality.</p>
+              <p className='w-full px-0 md:px-8 lg:px-0  lg:w-[750px] text-[20px] md:text-[25px] text-[#575757] font-light'>At Kele Spice Hub, we are founded on the principle of loving life through the sharing of spices, herbs, and aromas that add wholesome taste to both your food and your life. Our home-made blends are meticulously prepared with love and detail in small batches from our kitchen in South Africa, ensuring each product reflects our passion and commitment to quality.</p>
              </motion.div>
               </motion.div>
               <motion.div  initial={{x: 200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} viewport={{once:true}} className=' md:block hidden'>
-                <div className='bg-[#ff8801] w-[450px] h-[450px]'>
+                <div className='bg-[#ff8801] w-full lg:w-[450px] h-[450px]'>
       
                 </div>
-                <Image src={thejars} alt='' className='w-[500px] absolute z-0  h-auto ml-[-100px] mt-[-400px]'/>
+                <Image src={thejars} alt='' className='w-[500px] absolute z-0  h-auto ml-0 lg:ml-[-100px] mt-[-400px]'/>
               </motion.div>
              </div>
 
@@ -89,17 +119,18 @@ export default function Page() {
           </motion.div> */}
        </div>
 
-    <div className='px-[250px]'>
-    <div className='flex shadow-xl w-full h-[800px] bg-[#fff5f0] justify-evenly items-center mx-auto'>
+    <div className=' lg:px-[250px] pb-0 lg:pb-[5vw]'>
+    <div className=' px-[2vw] block lg:flex shadow-xl w-full h-auto lg:h-[800px] bg-[#fff5f0] justify-evenly items-center mx-auto'>
       <div className='w-full'>
-      <Image src={header} className='w-auto h-[800px]' alt=''/>
+      <Image src={header} className='w-auto h-[800px] hidden md:block' alt=''/>
+      <Image src={header2} className='w-full h-auto block md:hidden' alt=''/>
       </div>
 
 
-      <div className=' text-black w-full'>
+      <div className=' text-black w-full pb-[15vw] lg:pb-0'>
         <div className={open_sans.className}>
         <p className='text-center text-[#000] text-[4vw]'>Core Values </p>
-        <div className='text-start text-[#686766] px-[50px] space-y-10 mt-7 text-[16px]'>
+        <div className='text-start text-[#686766] px-[3vw] lg:px-[50px] space-y-10 mt-7 text-[16px]'>
         <p><span className='font-bold text-[#000] uppercase'>Compassion -</span>  We listen and respond to the needs of our customers, focusing on empathy with their cooking scenario and every flavor we blend brings them joy.</p>
 
         <p><span className='font-bold text-[#000] uppercase'> Excellence -</span>We are committed to sourcing and preparing the highest quality spices and herbs, ensuring exceptional taste and satisfaction in every blend.</p>
@@ -124,13 +155,15 @@ export default function Page() {
 
 
      </div>
+     <div className='h-[] lg:h-auto'>
      <div className={antonio.className}>
-        <div className='w-full mt-[100px]'>
-          <Image src={unsdgs} className='w-full h-auto' alt=''  />
+        <div className='w-full mt-[20vw]  lg:mt-[100px] '>
+          <Image src={unsdgs} className='w-full h-auto hidden lg:block' alt=''  />
+          <Image src={unsdgs2} className='w-full h-auto block lg:hidden' alt=''  />
         </div>
-       <div className='px-[150px]'>
-       <div className='absolute -mt-[480px] bg-[#000] w-[450px] bg-opacity-40 rounded-[15px]'>
-          <div className='px-10 py-5'>
+       <div className='px-[0vw] lg:px-[150px]'>
+       <div className='relative lg:absolute mt-0  lg:-mt-[480px] bg-[#000] w-full lg:w-[450px] bg-opacity-40 rounded-0 lg:rounded-[15px]'>
+          <div className='px-[3vw] lg:px-10 py-5'>
             <div className=' '>
               <FaQuoteLeft className='text-[50px] text-[#ecba23]' />
             </div>
@@ -155,11 +188,9 @@ export default function Page() {
        </div>
 
       </div>
+     </div>
     </div>
 
-     <div className='h-[200px] w-full'>
-
-     </div>
 
       
     </div>

@@ -19,7 +19,7 @@ export default function contact() {
         <div className={antonio.className}>
         <div className='flex mx-auto items-center justify-center -mt-[280px] pb-[200px]'>
         <div className=''>
-          <p className='font-semibold text-[4vw] pt-0 text-white uppercase w-fit tracking-tight'>ABOUT US</p>
+          <p className='font-semibold text-[4vw] pt-0 text-white uppercase w-fit tracking-tight'>CONTACT US</p>
           <div className='flex text-[20px]shadow-md justify-center items-center mx-auto gap-x-3'>
             <p>HOME</p>
            <div className='-mt-1'>
@@ -32,8 +32,8 @@ export default function contact() {
         </div>
        </div>
 
-       <div className='px-[200px]'>
-        <div className='flex gap-x-5 mx-auto items-center justify-between  '>
+       <div className='px-0 lg:px-[200px]'>
+        <div className='block lg:flex gap-x-5 mx-auto items-center justify-between  '>
             <div className='bg-[#fff] text-center w-full h-[280px] shadow-md '>
                <div className='py-10 px-5 text-black space-y-3'>
                <div className='bg-[#faf7f2] w-fit rounded-full p-4 flex mx-auto items-center justify-center'>
@@ -99,7 +99,7 @@ export default function contact() {
 
        <div className='flex mx-auto items-center justify-center mt-[120px]'>
        <div className='bg-[#f8f9fa] w-[1000px] h-auto  border-[1px] border-[#e9e9e9]'>
-      <div className='p-[70px]'>
+      <div className='lg:p-[70px]'>
       <div className='text-[#bd1f17] flex gap-x-3'>
         <div className='-mt-0'>
            <GoHorizontalRule className='w-[40px] h-auto font-light '/>
@@ -112,49 +112,49 @@ export default function contact() {
         <p className='text-[55px] py-5 font-bold text-black'>WRITE US SOMETHING</p>
         </div>
 
-       <div className='flex justify-between'>
+       <div className='block lg:flex justify-between space-y-[3vw] px-[3vw]' >
        <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Your Name*</p>
-            <input type="text" placeholder='Your name here' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-[350px] rounded-[25px]'  />
+            <input type="text" placeholder='Your name here' className='py-3 px-[2vw] lg:px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full lg:w-[350px] rounded-[5px] lg:rounded-[25px]'  />
             </div>
         </div>
 
         <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Your Email*</p>
-            <input type="text" placeholder='Your email here' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-[350px] rounded-[25px]'  />
+            <input type="text" placeholder='Your email here' className='py-3 px-[2vw] lg:px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full lg:w-[350px] rounded-[5px] lg:rounded-[25px]'  />
             </div>
         </div>
 
        </div>
 
-       <div className='flex justify-between mt-6'>
+       <div className='block lg:flex justify-between mt-6 space-y-[3vw] px-[3vw]'>
        <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Your Subject*</p>
-            <input type="text" placeholder='Your subject here' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-[350px] rounded-[25px]'  />
+            <input type="text" placeholder='Your subject here' className='py-3 px-[2vw] lg:px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full lg:w-[350px] rounded-[5px] lg:rounded-[25px]'  />
             </div>
         </div>
 
         <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Contact Number*</p>
-            <input type="text" placeholder='Your contact cumber here' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-[350px] rounded-[25px]'  />
+            <input type="text" placeholder='Your contact cumber here' className='py-3 px-[2vw] lg:px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full lg:w-[350px] rounded-[5px] lg:rounded-[25px]'  />
             </div>
         </div>
 
        </div>
-       <div className='mt-6 w-full'>
+       <div className='mt-6 w-full px-[3vw]'>
        <div className={open_sans.className}>
             <div className='space-y-1 w-full'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Message *</p>
-            <textarea  placeholder='Tell us a few words' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full h-[200px] rounded-[25px]'  />
+            <textarea  placeholder='Tell us a few words' className='py-3 px-3 text-[#6a747b] outline-none border-[1px] border-[#d3d3d3] w-full h-[200px] rounded-[5px] lg:rounded-[25px]'  />
             </div>
         </div>
        </div>
 
-       <div className='bg-[#bd1f17] text-center py-4 px-8 w-fit rounded-[25px] mt-5 font-bold text-[20px]'>
+       <div className='bg-[#bd1f17] text-center py-4 px-8 w-fit rounded-[5px] lg:rounded-[25px] mt-5 font-bold text-[20px]'>
         <p className={antonio.className}>SEND MESSAGE</p>
        </div>
 

@@ -87,18 +87,17 @@ export default function Header() {
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-black"
+              className="-m-2.5 rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6 " aria-hidden="true" />
+              <XMarkIcon className="h-6 w-6 text-white"  aria-hidden="true" />
             </button>
           </div>
 
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6 ">
-        
                 <a
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
@@ -106,7 +105,6 @@ export default function Header() {
                    <HomeIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
                    <p className=" font-medium text-[15px]">Home</p>
                 </div>
-               
                 </a>
 
                 <a
@@ -119,7 +117,7 @@ export default function Header() {
                
                 </a>
                 <a
-                 href="#offres"
+                 href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
                 ><div className="flex gap-x-6 text-[#303030]  hover:text-[#c12126]"  >
                    <WalletIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
@@ -135,7 +133,7 @@ export default function Header() {
                 </div>
                
                 </a>
-                <a href="http://">
+                <a href="https://api.whatsapp.com/">
                 <div className='bg-[#ecba23] w-fit mt-5 text-white uppercase hover:cursor-pointer font-semibold rounded-[5px]'>
                     <p className='px-6 py-2'>Order now</p>
                 </div></a>
@@ -148,7 +146,7 @@ export default function Header() {
         </Dialog.Panel>
       </Dialog>
 
-      <div className={`flex bg-[${bgColor}] border-b-[1px] border-[#ec4242] text-white justify-between w-full items-center mx-auto pt-0 px-5 lg:px-[150px] text-[20px] shadow-xl font-normal gap-x-5`} >
+      <div className={`flex bg-[${bgColor}] border-b-[1px] border-[#ec4242] text-white justify-between w-full items-center mx-auto pt-0 px-0 lg:px-[150px] text-[20px] shadow-xl font-normal gap-x-5`} >
        {/* <div className='rounded-[35px]'>
        <p className='text-[25px] rounded-[35px] text-white font-extrabold '>KeleSpice<span className='text-[#ff830e]'>..</span></p>
        </div>  */}
@@ -158,7 +156,7 @@ export default function Header() {
          <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -181,7 +179,6 @@ export default function Header() {
          
          </div>
          <Link href="https://api.whatsapp.com/">
-        
          <div className='bg-[#ecba23] hidden lg:block text-white uppercase hover:cursor-pointer font-semibold rounded-[5px]'>
             <p className='px-6 py-2'>Order now</p>
           </div>

@@ -10,7 +10,7 @@ import slider from '../image/slide2.png'
 export default function Recipe() {
   return (
     <div className='bg-[#f7f7ee] pb-[50px]'>
-      <div className='block md:flex px-5 items-center justify-center mx-auto pt-[200px] md:px-[50px] lg:px-[300px] gap-x-1 space-y-1 lg:space-y-0'>
+      <div className='block md:flex px-0 items-center justify-center mx-auto pt-[200px] md:px-[50px] lg:px-[300px] gap-x-1 space-y-1 lg:space-y-0'>
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
                 <Image src={thejars} className='w-full h-auto' alt=''/>
             </div>
@@ -25,7 +25,7 @@ export default function Recipe() {
       </div>
 
 
-      <div className='block md:flex px-5 items-center justify-center mx-auto pt-1 md:px-[50px] lg:px-[300px] gap-x-1 space-y-1 lg:space-y-0'>
+      <div className='block md:flex px-0 items-center justify-center mx-auto pt-1 md:px-[50px] lg:px-[300px] gap-x-1 space-y-1 lg:space-y-0'>
             <div className='text-center justify-center items-center my-auto bg-[#e2e1d8] w-full h-auto'>
                 <Image src={slider} className='w-full h-auto' alt=''/>
             </div>

@@ -31,7 +31,6 @@ export default function Home() {
 
       <div className='block md:flex justify-between mx-auto mt-0  py-[0vw] lg:py-[150px] px-[2vw] lg:px-[13vw] h-auto' >
 
-
       <motion.div initial={{x: -200, opacity:0}} whileInView={{x:0, opacity:1}} transition={{duration:1.2}} animate={controls} viewport={{once:true}}>
             <div className='text-[#ecba23] flex gap-x-3 text-[20px]'>
               <GoHorizontalRule className='w-[50px] h-auto font-light '/>
