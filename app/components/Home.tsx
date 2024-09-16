@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             
             <motion.div initial={{scale: 0, opacity:0}} whileInView={{scale:1, opacity:1}} transition={{duration:1.2}} animate={controls} viewport={{once:true}} className='flex justify-center -ml-[2vw]'>
-            <Image src={headerpic} className="w-full h-auto mt-[0vh] block lg:hidden animate-spin-veryslow " alt=''/>
+            <Image src={headerpic} className="w-full h-auto mt-[0vh] block lg:hidden  " alt=''/>
             </motion.div>
 
             <div className='px-[10vw] pb-0 lg:pb-[3vw]'>

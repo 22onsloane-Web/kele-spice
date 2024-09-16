@@ -8,7 +8,7 @@ const antonio = Antonio({ subsets: ["latin"] });
 const open_sans = Open_Sans({ subsets: ["latin"] });
 export default function Section2() {
   return (
-    <div className='bg-[#232323] w-full pb-[50px]'>
+    <div className='bg-[#232323] w-full mt-[20vw] lg:mt-0 pb-[50px]'>
    <div className='flex mx-auto items-center justify-center py-[60px]'>
    <div className={antonio.className}>
         <div className='block'>

@@ -27,9 +27,9 @@ export default function Page() {
         <Image src={bgPic} className='w-full h-[30vw] md:h-auto hidden lg:block' alt=''/>
         <Image src={bgPic2} className='w-full h-auto md:h-auto block lg:hidden' alt=''/>
         <div className={antonio.className}>
-        <div className='flex mx-auto items-center justify-center -mt-[280px] pb-[200px]'>
+        <div className='flex mx-auto items-center justify-center -mt-[30vw] lg:-mt-[280px] pb-[200px]'>
         <div className=''>
-          <p className='font-semibold text-[4vw] pt-0 text-white uppercase w-fit tracking-tight'>ABOUT US</p>
+          <p className='font-semibold text-[8vw] lg:text-[4vw] pt-0 text-white uppercase w-fit tracking-tight'>ABOUT US</p>
           <div className='flex text-[20px] justify-center items-center mx-auto gap-x-3'>
             <p>HOME</p>
            <div className='-mt-1'>
