@@ -99,8 +99,8 @@ export default function contact() {
 
        <div className='flex mx-auto items-center justify-center mt-[120px]'>
        <div className='bg-[#f8f9fa] w-[1000px] h-auto  border-[1px] border-[#e9e9e9]'>
-      <div className='lg:p-[70px]'>
-      <div className='text-[#bd1f17] flex gap-x-3'>
+      <div className='lg:p-[70px] '>
+      <div className='text-[#bd1f17] flex gap-x-3 px-[4vw]'>
         <div className='-mt-0'>
            <GoHorizontalRule className='w-[40px] h-auto font-light '/>
            </div>
@@ -109,7 +109,7 @@ export default function contact() {
             </div>
         </div>
         <div className={antonio.className}>
-        <p className='text-[55px] py-5 font-bold text-black'>WRITE US SOMETHING</p>
+        <p className='text-[8vw] lg"text-[55px] py-5 px-[10vw] font-bold text-black'>WRITE US SOMETHING</p>
         </div>
 
        <div className='block lg:flex justify-between space-y-[3vw] px-[3vw]' >
