@@ -109,10 +109,10 @@ export default function contact() {
             </div>
         </div>
         <div className={antonio.className}>
-        <p className='text-[8vw] lg"text-[55px] py-5 px-[10vw] font-bold text-black'>WRITE US SOMETHING</p>
+        <p className='text-[8vw] lg:text-[55px] py-5 px-[10vw] font-bold text-black'>WRITE US SOMETHING</p>
         </div>
 
-       <div className='block lg:flex justify-between space-y-[3vw] px-[3vw]' >
+       <div className='block lg:flex justify-between space-y-[3vw] lg:space-y-0 px-[3vw]' >
        <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Your Name*</p>
@@ -129,7 +129,7 @@ export default function contact() {
 
        </div>
 
-       <div className='block lg:flex justify-between mt-6 space-y-[3vw] px-[3vw]'>
+       <div className='block lg:flex justify-between mt-6 space-y-[3vw] lg:space-y-0 px-[3vw]'>
        <div className={open_sans.className}>
             <div className='space-y-1'> 
             <p className='text-[#6a747b] px-2 font-semibold'>Your Subject*</p>
@@ -154,7 +154,7 @@ export default function contact() {
         </div>
        </div>
 
-       <div className='bg-[#bd1f17] text-center py-4 px-8 w-fit rounded-[5px] lg:rounded-[25px] mt-5 font-bold text-[20px]'>
+       <div className='bg-[#bd1f17] text-center py-4 px-8 w-fit rounded-[5px] lg:rounded-[25px] mt-5 font-bold text-[20px] ml-[3vw]'>
         <p className={antonio.className}>SEND MESSAGE</p>
        </div>
 
