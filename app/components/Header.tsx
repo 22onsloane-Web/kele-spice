@@ -108,7 +108,7 @@ export default function Header() {
                 </a>
 
                 <a
-                 href="#offres"
+                 href="/#product"      onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-medium leading-7 text-white hover:bg-[#f2f2f2] hover:text-[#45aad7]"
                 ><div className="flex gap-x-6 text-[#fff]  hover:text-[#c12126]"  >
                    <RectangleGroupIcon className="h-7 w-7  mt-0 hover:text-white" aria-hidden="true"/>
@@ -146,24 +146,24 @@ export default function Header() {
         </Dialog.Panel>
       </Dialog>
 
-      <div className={`flex bg-[${bgColor}] border-b-[1px] border-[#ec4242] text-white justify-between w-full items-center mx-auto pt-0 px-0 lg:px-[150px] text-[20px] shadow-xl font-normal gap-x-5`} >
+      <div className={`flex bg-[${bgColor}] border-b-[1px] border-[#ec4242] text-white justify-between w-full  mx-auto pt-0 px-0 lg:px-[150px] text-[20px] shadow-xl font-normal gap-x-5`} >
        {/* <div className='rounded-[35px]'>
        <p className='text-[25px] rounded-[35px] text-white font-extrabold '>KeleSpice<span className='text-[#ff830e]'>..</span></p>
        </div>  */}
        <div>
         <Image src={logo} className='w-[240px]' alt=''/>
        </div>
-         <div className="flex lg:hidden">
+         <div className="flex lg:hidden justify-end ml-[2vw]">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+              className=" justify-end flex items-center  rounded-md  text-white"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
               <Bars3Icon className="h-6 w-11 " aria-hidden="true" />
             </button>
           </div>
-         <div className=' py-2 uppercase font-medium hidden text-white lg:flex gap-x-[100px]'>
+         <div className=' py-[1.5vw] uppercase font-medium hidden text-white lg:flex gap-x-[100px] '>
          <Link href='/'>
          <p className={antonio.className}>Home</p>
          </Link >
@@ -178,7 +178,7 @@ export default function Header() {
          </Link>
          
          </div>
-         <Link href="https://api.whatsapp.com/">
+         <Link href="https://api.whatsapp.com/" className='py-[1.3vw]'>
          <div className='bg-[#ecba23] hidden lg:block text-white uppercase hover:cursor-pointer font-semibold rounded-[5px]'>
             <p className='px-6 py-2'>Order now</p>
           </div>

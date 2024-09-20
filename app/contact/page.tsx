@@ -157,7 +157,6 @@ export default function contact() {
        <div className='bg-[#bd1f17] text-center py-4 px-8 w-fit rounded-[5px] lg:rounded-[25px] mt-5 font-bold text-[20px] ml-[3vw]'>
         <p className={antonio.className}>SEND MESSAGE</p>
        </div>
-
       </div>
 
       </div>
